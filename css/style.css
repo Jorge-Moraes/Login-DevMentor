@@ -1,0 +1,642 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* CENTRALIZANDO TODO NOSSO CONTEUDO */
+body {
+  background: #121212;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 498px;
+  height: 550px;
+  padding: 10px;
+  justify-content: flex-start;
+  background-color: white;
+  border-radius: 15px;
+}
+.content .contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.content .contact .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+}
+.content .contact .info .login {
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 39px;
+  color: #121212;
+}
+.content .contact .info label input {
+  width: 428px;
+  height: 49px;
+  background-color: #E5E5E5;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.content .contact .info .btn {
+  width: 428px;
+  height: 49px;
+  border-radius: 7px;
+  background-color: #121212;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.content .contact p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+  padding: 75px 0px 14px 0px;
+}
+.content .contact .social {
+  display: flex;
+  flex-direction: column;
+}
+.content .contact .social .socialMedia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+.content .contact .social .socialMedia .btnTwitter {
+  width: 428px;
+  height: 49px;
+  border-radius: 7px;
+  background-color: #56A7F2;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.content .contact .social .socialMedia .btnFacebook {
+  width: 428px;
+  height: 49px;
+  border-radius: 7px;
+  background-color: #1E3C72;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+@media (max-width: 510px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 458px;
+    height: 550px;
+    padding: 10px;
+    justify-content: flex-start;
+    background-color: white;
+    border-radius: 15px;
+  }
+  .content .contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .content .contact .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 24px;
+  }
+  .content .contact .info .login {
+    font-size: 28px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 39px;
+    color: #121212;
+  }
+  .content .contact .info label input {
+    width: 400px;
+    height: 49px;
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .content .contact .info .btn {
+    width: 400px;
+    height: 49px;
+    border-radius: 7px;
+    background-color: #121212;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .content .contact p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    padding: 75px 0px 14px 0px;
+  }
+  .content .contact .social {
+    display: flex;
+    flex-direction: column;
+  }
+  .content .contact .social .socialMedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+  .content .contact .social .socialMedia .btnTwitter {
+    width: 400px;
+    height: 49px;
+    border-radius: 7px;
+    background-color: #56A7F2;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .content .contact .social .socialMedia .btnFacebook {
+    width: 400px;
+    height: 49px;
+    border-radius: 7px;
+    background-color: #1E3C72;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+}
+@media (max-width: 480px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 438px;
+    height: 550px;
+    padding: 10px;
+    justify-content: flex-start;
+    background-color: white;
+    border-radius: 15px;
+  }
+  .content .contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .content .contact .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 24px;
+  }
+  .content .contact .info .login {
+    font-size: 28px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 39px;
+    color: #121212;
+  }
+  .content .contact .info label input {
+    width: 400px;
+    height: 49px;
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .content .contact .info .btn {
+    width: 400px;
+    height: 49px;
+    border-radius: 7px;
+    background-color: #121212;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .content .contact p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    padding: 75px 0px 14px 0px;
+  }
+  .content .contact .social {
+    display: flex;
+    flex-direction: column;
+  }
+  .content .contact .social .socialMedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+  .content .contact .social .socialMedia .btnTwitter {
+    width: 400px;
+    height: 49px;
+    border-radius: 7px;
+    background-color: #56A7F2;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .content .contact .social .socialMedia .btnFacebook {
+    width: 400px;
+    height: 49px;
+    border-radius: 7px;
+    background-color: #1E3C72;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+}
+@media (max-width: 460px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 550px;
+    padding: 10px;
+    justify-content: flex-start;
+    background-color: white;
+    border-radius: 15px;
+  }
+  .content .contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .content .contact .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+  }
+  .content .contact .info .login {
+    font-size: 28px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 39px;
+    color: #121212;
+  }
+  .content .contact .info label input {
+    width: 350px;
+    height: 49px;
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .content .contact .info .btn {
+    width: 350px;
+    height: 49px;
+    border-radius: 7px;
+    background-color: #121212;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .content .contact p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    padding: 75px 0px 14px 0px;
+  }
+  .content .contact .social {
+    display: flex;
+    flex-direction: column;
+  }
+  .content .contact .social .socialMedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+  .content .contact .social .socialMedia .btnTwitter {
+    width: 350px;
+    height: 49px;
+    border-radius: 7px;
+    background-color: #56A7F2;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .content .contact .social .socialMedia .btnFacebook {
+    width: 350px;
+    height: 49px;
+    border-radius: 7px;
+    background-color: #1E3C72;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+}
+@media (max-width: 425px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 550px;
+    padding: 10px;
+    justify-content: flex-start;
+    background-color: white;
+    border-radius: 15px;
+  }
+  .content .contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .content .contact .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+  }
+  .content .contact .info .login {
+    font-size: 28px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 39px;
+    color: #121212;
+  }
+  .content .contact .info label input {
+    width: 380px;
+    height: 49px;
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .content .contact .info .btn {
+    width: 380px;
+    height: 49px;
+    border-radius: 7px;
+    background-color: #121212;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .content .contact p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    padding: 75px 0px 14px 0px;
+  }
+  .content .contact .social {
+    display: flex;
+    flex-direction: column;
+  }
+  .content .contact .social .socialMedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+  .content .contact .social .socialMedia .btnTwitter {
+    width: 380px;
+    height: 49px;
+    border-radius: 7px;
+    background-color: #56A7F2;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .content .contact .social .socialMedia .btnFacebook {
+    width: 380px;
+    height: 49px;
+    border-radius: 7px;
+    background-color: #1E3C72;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+}
+@media (max-width: 376px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 550px;
+    padding: 10px;
+    justify-content: flex-start;
+    background-color: white;
+    border-radius: 15px;
+  }
+  .content .contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .content .contact .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+  }
+  .content .contact .info .login {
+    font-size: 35px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 39px;
+    color: #121212;
+  }
+  .content .contact .info label input {
+    width: 320px;
+    height: 49px;
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .content .contact .info .btn {
+    width: 320px;
+    height: 49px;
+    border-radius: 7px;
+    background-color: #121212;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .content .contact p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    padding: 75px 0px 14px 0px;
+  }
+  .content .contact .social {
+    display: flex;
+    flex-direction: column;
+  }
+  .content .contact .social .socialMedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+  .content .contact .social .socialMedia .btnTwitter {
+    width: 320px;
+    height: 49px;
+    border-radius: 7px;
+    background-color: #56A7F2;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .content .contact .social .socialMedia .btnFacebook {
+    width: 320px;
+    height: 49px;
+    border-radius: 7px;
+    background-color: #1E3C72;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+}
+@media (max-width: 320px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 550px;
+    padding: 10px;
+    justify-content: flex-start;
+    background-color: white;
+    border-radius: 15px;
+  }
+  .content .contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .content .contact .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+  }
+  .content .contact .info .login {
+    font-size: 35px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 39px;
+    color: #121212;
+  }
+  .content .contact .info label input {
+    width: 250px;
+    height: 49px;
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .content .contact .info .btn {
+    width: 250px;
+    height: 49px;
+    border-radius: 7px;
+    background-color: #121212;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .content .contact p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    padding: 75px 0px 14px 0px;
+  }
+  .content .contact .social {
+    display: flex;
+    flex-direction: column;
+  }
+  .content .contact .social .socialMedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+  .content .contact .social .socialMedia .btnTwitter {
+    width: 250px;
+    height: 49px;
+    border-radius: 7px;
+    background-color: #56A7F2;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .content .contact .social .socialMedia .btnFacebook {
+    width: 250px;
+    height: 49px;
+    border-radius: 7px;
+    background-color: #1E3C72;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
